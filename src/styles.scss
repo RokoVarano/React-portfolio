@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300&display=swap');
+
+$l-pfont: 'Dosis', sans-serif;
+$l-hfont: 'Bebas Neue', cursive;
+$l-blue: midnightblue;
+$l-black: black;
+$l-white: white;
+$l-red: rgb(232,12,58);
+
+.App {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  position: absolute;
+  background-color: $l-white;
+  flex-direction: column;
+}
