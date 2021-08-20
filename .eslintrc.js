@@ -1,28 +1,27 @@
 module.exports = {
   env: {
-    browser: true,
-    es2021: true,
+    es6: true,
+    node: true,
+    jest: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
+  extends: ['eslint:recommended'],
   parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 12,
+    ecmaVersion: 2017,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-    '@typescript-eslint',
-  ],
   rules: {
-    // note you must disable the base rule as it can report incorrect errors
-    'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': ['error'],
-    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
+    indent: ['error', 2],
+    'linebreak-style': ['error', 'unix'],
+    quotes: ['error', 'single'],
+    'no-console': 'warn',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
+    ],
+    '@typescript-eslint/explicit-function-return-type': 'warn', // Consider using explicit annotations for object literals and function return types even when they can be inferred.
+    'no-empty': 'warn',
   },
 };

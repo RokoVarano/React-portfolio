@@ -27,16 +27,19 @@ $l-red: rgb(232,12,58);
   background-color: $l-black;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: flex-start;
 }
 
 h1 {
   font-size: 5rem;
 }
 
-h1, h3 {
+h1, h2, h3 {
   font-family: $l-hfont;
 }
 
 
 
 @import './components/Header/header.scss';
+@import './components/Menu/menu.scss';
+@import './components//MenuItem/menuitem.scss';

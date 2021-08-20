@@ -1,0 +1,15 @@
+.menu {
+  width: auto;
+  border-right: 0.5rem $l-white solid;
+  color: $l-red;
+  flex-direction: column;
+
+  .menu-about {
+    height: 33%;
+    border-bottom:  0.5rem $l-white solid;
+  }
+
+  .menu-projects {
+    height: 100%;
+  }
+}

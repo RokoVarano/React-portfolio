@@ -1,4 +1,4 @@
-nav {
+.header {
   height: 3rem;
   color: $l-red;
   background-color: $l-blue;
@@ -14,7 +14,16 @@ nav {
   .title-container {
     position: absolute;
     height: 4rem;
-    margin-left: 1rem;
     margin-top: 0.5rem;
+
+    h1 {
+      padding-left: 1rem;
+    }
+
+    h3 {
+      display: flex;
+      padding-left: 1rem;
+      justify-content: center;
+    }
   }
 }

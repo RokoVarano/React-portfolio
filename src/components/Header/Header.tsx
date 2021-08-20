@@ -1,7 +1,5 @@
-import React, { FC } from 'react';
-
-const Header: FC = () => (
-  <nav>
+const Header = () => (
+  <nav className="header">
     <div className="black-bar general" />
     <div className="title-container">
       <h1>Rodrigo Ibaceta</h1>
