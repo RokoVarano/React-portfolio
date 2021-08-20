@@ -1,11 +1,13 @@
 .menu {
+  position: absolute;
   width: auto;
   border-right: 0.5rem $l-white solid;
   color: $l-red;
   flex-direction: column;
+  background-color: $l-white-transparent;
 
   .menu-about {
-    height: 33%;
+    height: 50%;
     border-bottom:  0.5rem $l-white solid;
   }
 

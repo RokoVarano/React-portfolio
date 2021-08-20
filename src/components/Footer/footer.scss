@@ -1,0 +1,9 @@
+footer {
+  margin: 0;
+  border-top: $l-white 0.2rem solid;
+
+  .black-bar{
+    background: linear-gradient(to right, $l-white 0 30%, transparent 60% 100%);
+    height: 1rem;
+  }
+}

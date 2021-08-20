@@ -1,4 +1,4 @@
-const Header = () => (
+const Header = (): JSX.Element => (
   <nav className="header">
     <div className="black-bar general" />
     <div className="title-container">

@@ -24,4 +24,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'warn', // Consider using explicit annotations for object literals and function return types even when they can be inferred.
     'no-empty': 'warn',
   },
+  globals: {
+    JSX: true,
+  },
 };

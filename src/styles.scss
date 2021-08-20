@@ -6,6 +6,7 @@ $l-hfont: 'Bebas Neue', cursive;
 $l-blue: midnightblue;
 $l-black: black;
 $l-white: white;
+$l-white-transparent: rgba(255, 255, 255, 0.15);
 $l-red: rgb(232,12,58);
 
 * {
@@ -13,7 +14,7 @@ $l-red: rgb(232,12,58);
   padding: 0;
 }
 
-.App, .general, nav, h1{
+.App, .general, main, nav, footer, h1{
   display: flex;
   width: 100%;
   height: 100%;
@@ -43,3 +44,4 @@ h1, h2, h3 {
 @import './components/Header/header.scss';
 @import './components/Menu/menu.scss';
 @import './components//MenuItem/menuitem.scss';
+@import './components/Footer/footer.scss';

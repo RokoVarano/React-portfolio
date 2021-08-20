@@ -1,6 +1,6 @@
 import MenuItem from '../MenuItem/MenuItem';
 
-const Menu = () => (
+const Menu = ():JSX.Element => (
   <nav className="menu">
     <div className="menu-about general">
       <MenuItem name="About me" />
